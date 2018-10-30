@@ -4,6 +4,15 @@ public class Car1 {
 
 	private Integer speed;
 	private String bodyColor;
+	private Integer price;
+
+	public Integer getPrice() {
+		return price;
+	}
+
+	public void setPrice(Integer price) {
+		this.price = price;
+	}
 
 	public Integer getSpeed() {
 		return speed;
